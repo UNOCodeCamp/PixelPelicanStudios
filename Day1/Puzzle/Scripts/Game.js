@@ -1,7 +1,7 @@
-var passcode = ~~(Math.random() * 1000);
+var game = ~~(Math.random() * 1000);
 var tries = 10;
 
-var cueText = document.getElementById("clues")
+
 
 var number = document.getElementById("guess-number");
 
@@ -39,7 +39,6 @@ function giveClue(guess)
     {
        alert(guess + "is to High!");
        clueText.innerHTML += "<li>" + guess + "is too High!" + "</li>"
-    }
     else
     {
         alert(guess + "is to Low!");
