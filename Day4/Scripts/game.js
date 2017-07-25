@@ -24,7 +24,6 @@ game.main = function()
         renderer.draw();
         window.requestAnimationFrame(game.main);
     }
-
 };
 
 // Update game objects
